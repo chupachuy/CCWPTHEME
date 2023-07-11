@@ -1,0 +1,81 @@
+/* _________________________________________________________________________________ FUENTES */
+@font-face { font-family: Heebo-Black; src: url('../font/heebo/Heebo-Black.ttf'); }
+@font-face { font-family: Heebo-Bold; src: url('../font/heebo/Heebo-Bold.ttf'); }
+@font-face { font-family: Heebo-ExtraBold; src: url('../font/heebo/Heebo-ExtraBold.ttf'); }
+@font-face { font-family: Heebo-ExtraLight; src: url('../font/heebo/Heebo-ExtraLight.ttf'); }
+@font-face { font-family: Heebo-Light; src: url('../font/heebo/Heebo-Light.ttf'); }
+@font-face { font-family: Heebo-Medium; src: url('../font/heebo/Heebo-Medium.ttf'); }
+@font-face { font-family: Heebo-Regular; src: url('../font/heebo/Heebo-Regular.ttf'); }
+@font-face { font-family: Heebo-SemiBold; src: url('../font/heebo/Heebo-SemiBold.ttf'); }
+@font-face { font-family: Heebo-Thin; src: url('../font/heebo/Heebo-Thin.ttf'); }
+@font-face { font-family: Heebo-VariableFont_wght; src: url('../font/heebo/Heebo-VariableFont_wght.ttf'); }
+/* _________________________________________________________________________________ FUENTES */
+
+
+/* _________________________________________________________________________________ QUÉ ESPERAR DE NOSOTROS */
+.tituse1{
+	font-family: Heebo-Bold;
+	font-size: 2.5em;
+	margin-bottom: 1em;
+}
+.card{
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0), 0 2px 10px 0 rgba(0,0,0,0);
+}
+.card-header{
+	padding: 0;
+}
+.btnOpt{
+	background-color: transparent !important;
+}
+.btnOpt h2{
+	font-size: 1.2em;
+	padding: 0;
+}
+.btnOpt h2 button{
+	font-family: Heebo-Light;
+	font-size: 1.4em;
+	color: #575756 !important;
+	padding: .3em 0 !important;
+	text-transform: none;
+	text-decoration: none;
+}
+.btnOpt h2 button:hover{
+	color: #00A4E4 !important;
+	text-decoration: none;
+}
+.btnOpt h2 button:active{
+	color: #00A4E4 !important;
+	text-decoration: none;
+}
+.btnOpt h2 button:focus{
+	color: #00A4E4 !important;
+	text-decoration: none;
+}
+.btn.btn-link{
+	color: #575756 !important;
+}
+.iluTEq{
+	width: 100%;
+	height: auto;
+	margin: 1em auto;
+}
+.iluTEq img{
+	width: 100%;
+	height: auto;
+}
+.tablTran tr td{
+	vertical-align: top;
+}
+.btnCat{
+	font-family: Heebo-Light;
+	font-size: 1.4em;
+	color: #575756 !important;
+	padding: .3em 0 !important;
+	text-transform: none;
+	text-decoration: none;
+}
+.btnCat:hover{
+	color: #00A4E4 !important;
+	text-decoration: none;
+}
+/* _________________________________________________________________________________ QUÉ ESPERAR DE NOSOTROS */

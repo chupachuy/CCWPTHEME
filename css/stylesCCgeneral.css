@@ -1,0 +1,91 @@
+/* _________________________________________________________________________________ FUENTES */
+@font-face { font-family: Heebo-Black; src: url('../font/heebo/Heebo-Black.ttf'); }
+@font-face { font-family: Heebo-Bold; src: url('../font/heebo/Heebo-Bold.ttf'); }
+@font-face { font-family: Heebo-ExtraBold; src: url('../font/heebo/Heebo-ExtraBold.ttf'); }
+@font-face { font-family: Heebo-ExtraLight; src: url('../font/heebo/Heebo-ExtraLight.ttf'); }
+@font-face { font-family: Heebo-Light; src: url('../font/heebo/Heebo-Light.ttf'); }
+@font-face { font-family: Heebo-Medium; src: url('../font/heebo/Heebo-Medium.ttf'); }
+@font-face { font-family: Heebo-Regular; src: url('../font/heebo/Heebo-Regular.ttf'); }
+@font-face { font-family: Heebo-SemiBold; src: url('../font/heebo/Heebo-SemiBold.ttf'); }
+@font-face { font-family: Heebo-Thin; src: url('../font/heebo/Heebo-Thin.ttf'); }
+@font-face { font-family: Heebo-VariableFont_wght; src: url('../font/heebo/Heebo-VariableFont_wght.ttf'); }
+/* _________________________________________________________________________________ FUENTES */
+
+/* _________________________________________________________________________________ GENERALES */
+.colAzC{ color: #00A4E4; }
+.colAzO{ color: #008DCC; }
+.colGrC{ color: #B2B2B2; }
+.colGrO{ color: #575756; }
+/*  Fondos  */
+.colAzCb{ background-color: #00A4E4 !important; }
+.colAzOb{ background-color: #008DCC !important; }
+.colGrCb{ background-color: #B2B2B2 !important; }
+.colGrOb{ background-color: #575756 !important; }
+/*  Título  */
+.tituh2{
+	font-family: Heebo-Regular;
+	font-size: 2.3em;
+}
+.tituh3{
+	font-family: Heebo-Regular;
+	font-size: 1.7em;
+}
+.pgen{
+	font-family: Heebo-Regular;
+	font-size: 1.2em;
+}
+/*  Márgenes  */
+.mar_esp_b_1{
+	margin-bottom: 1em;
+}
+/*  Padding  */
+.sin_padd{
+	padding: 0;
+}
+/*  Variante de fuentes  */
+.boldsp{
+	font-family: Heebo-Bold;
+}
+/*  HR  */
+.liPrin{
+	background-color: #CCC;
+}
+/* _________________________________________________________________________________ GENERALES */
+
+
+/* ___________________________ Menú ___________________________ */
+.imgLm{
+	width: auto;
+	height: 4em;
+}
+.bacKNva{
+	background-color: rgba(256, 256, 256, 1);
+}
+.colorH{
+	color: #000 !important;
+}
+.efeHover{
+	font-family: Heebo-Medium;
+	border-bottom: transparent;
+	margin-left: .7em;
+}
+.efeHover:hover{
+	border-bottom: solid 2px #000;
+}
+.nav-link{
+	line-height: 1.3;
+}
+/* ___________________________ Menú ___________________________ */
+
+
+/* ___________________________ Footer ___________________________ */
+.textFoot{
+	font-family: Heebo-Light;
+	font-weight: 300;
+	color: #FFF;
+}
+.spTextFoot{
+	font-family: Heebo-Medium;
+	font-weight: 600;
+}
+/* ___________________________ Footer ___________________________ */

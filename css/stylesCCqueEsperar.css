@@ -1,0 +1,55 @@
+/* _________________________________________________________________________________ FUENTES */
+@font-face { font-family: Heebo-Black; src: url('../font/heebo/Heebo-Black.ttf'); }
+@font-face { font-family: Heebo-Bold; src: url('../font/heebo/Heebo-Bold.ttf'); }
+@font-face { font-family: Heebo-ExtraBold; src: url('../font/heebo/Heebo-ExtraBold.ttf'); }
+@font-face { font-family: Heebo-ExtraLight; src: url('../font/heebo/Heebo-ExtraLight.ttf'); }
+@font-face { font-family: Heebo-Light; src: url('../font/heebo/Heebo-Light.ttf'); }
+@font-face { font-family: Heebo-Medium; src: url('../font/heebo/Heebo-Medium.ttf'); }
+@font-face { font-family: Heebo-Regular; src: url('../font/heebo/Heebo-Regular.ttf'); }
+@font-face { font-family: Heebo-SemiBold; src: url('../font/heebo/Heebo-SemiBold.ttf'); }
+@font-face { font-family: Heebo-Thin; src: url('../font/heebo/Heebo-Thin.ttf'); }
+@font-face { font-family: Heebo-VariableFont_wght; src: url('../font/heebo/Heebo-VariableFont_wght.ttf'); }
+/* _________________________________________________________________________________ FUENTES */
+
+
+/* _________________________________________________________________________________ QUÉ ESPERAR DE NOSOTROS */
+.tituqe1{
+	font-family: Heebo-Bold;
+	font-size: 2.5em;
+	margin-bottom: 1em;
+}
+.tituqe2{
+	font-family: Heebo-Bold;
+	font-size: 1.7em;
+	margin-bottom: 1em;
+	color: #575756;
+}
+.paddTab{
+	padding: 2em;
+}
+.nav-tabs .nav-link{
+	font-family: Heebo-Regular;
+	color: #B2B2B2;
+	border: transparent;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+	font-family: Heebo-Regular;
+	color: #00A4E4;
+	border-bottom: #00A4E4 solid 3px; 
+}
+.textAlcolI{
+	text-align: right;
+}
+.textAlcolD{
+	text-align: left;
+}
+
+@media (max-width: 800px) {
+	.textAlcolI{
+		text-align: center;
+	}
+	.textAlcolD{
+		text-align: center;
+	}	
+}
+/* _________________________________________________________________________________ QUÉ ESPERAR DE NOSOTROS */

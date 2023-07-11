@@ -1,0 +1,142 @@
+/* _________________________________________________________________________________ FUENTES */
+@font-face { font-family: Heebo-Black; src: url('../font/heebo/Heebo-Black.ttf'); }
+@font-face { font-family: Heebo-Bold; src: url('../font/heebo/Heebo-Bold.ttf'); }
+@font-face { font-family: Heebo-ExtraBold; src: url('../font/heebo/Heebo-ExtraBold.ttf'); }
+@font-face { font-family: Heebo-ExtraLight; src: url('../font/heebo/Heebo-ExtraLight.ttf'); }
+@font-face { font-family: Heebo-Light; src: url('../font/heebo/Heebo-Light.ttf'); }
+@font-face { font-family: Heebo-Medium; src: url('../font/heebo/Heebo-Medium.ttf'); }
+@font-face { font-family: Heebo-Regular; src: url('../font/heebo/Heebo-Regular.ttf'); }
+@font-face { font-family: Heebo-SemiBold; src: url('../font/heebo/Heebo-SemiBold.ttf'); }
+@font-face { font-family: Heebo-Thin; src: url('../font/heebo/Heebo-Thin.ttf'); }
+@font-face { font-family: Heebo-VariableFont_wght; src: url('../font/heebo/Heebo-VariableFont_wght.ttf'); }
+/* _________________________________________________________________________________ FUENTES */
+
+
+/* _________________________________________________________________________________ PERFIL AUTOR */
+.text_abc{
+	font-family: Heebo-Light;
+	font-size: 1.5em;
+	color: #000000;
+}
+.margin_abc_l{
+	margin-left: 0.8em;
+}
+.input_b_autor{
+	border: 0;
+    outline: 0;
+    border-bottom: solid 1px #000000;
+}
+.img_autor{
+	width: 70%;
+	height: auto;
+	margin-left: 15%;
+}
+.text_nom_autor{
+	font-family: Heebo-Bold;
+	font-size: 3.4em;
+	color: #004481;
+}
+.text_info_autor{
+	font-family: Heebo-Regular;
+	font-size: 1.1em;
+	color: #000000;
+}
+.text_mencnes_autor{
+	font-family: Heebo-Light;
+	font-size: 1.3em;
+	color: #000000;
+}
+
+
+/* ______________________________ TAB TÍTULOS / ART. PUBLI. */
+.paddTab{
+	padding: 2em;
+}
+.nav-tabs .nav-link{
+	font-family: Heebo-Regular;
+	color: #00A4E4;
+	border: transparent;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+	font-family: Heebo-Regular;
+	color: #00A4E4;
+	border-bottom: #00A4E4 solid 2px; 
+}
+.wtotal{
+	width: 100%;
+	height: auto;
+}
+.text_tit_pest{
+	font-family: Heebo-SemiBold !important;
+	font-size: 1.4em !important;
+	color: #B2B2B2 !important;
+}
+.text_tit_pest:hover{
+	font-family: Heebo-SemiBold !important;
+	font-size: 1.4em !important;
+	color: #00A4E4 !important;
+}
+.text_tit_pest:active{
+	font-family: Heebo-SemiBold !important;
+	font-size: 1.4em !important;
+	color: #00A4E4 !important;
+}
+.text_tit_pest:focus{
+	font-family: Heebo-SemiBold !important;
+	font-size: 1.4em !important;
+	color: #00A4E4 !important;
+}
+/* _________________ TAB TÍTULOS / ART. PUBLI. */
+.img_por_tit{
+	width: 100%;
+	height: auto;
+}
+.text_ver_libro{
+	font-family: Heebo-Regular;
+	font-size: 1em;
+	color: #00A4E4;
+}
+.text_tit_titulo{
+	font-family: Heebo-Bold;
+	font-size: 1.3em;
+	color: #000000;
+}
+.text_subtit_titulo{
+	font-family: Heebo-Regular;
+	font-size: 1.3em;
+	color: #000000;
+}
+.text_nom_autor{
+	font-family: Heebo-Light;
+	font-size: 1.3em;
+	color: #000000;
+}
+.text_p{
+	font-family: Heebo-Regular;
+	font-size: 1.3em;
+	color: #000000;
+}
+.linea_grs{
+	border: solid 1px #B2B2B2;
+}
+.text_indice_autor{
+	font-family: Heebo-Light;
+	font-size: 1.3em;
+	color: #000000;
+}
+.indice_column{
+	column-count: 2;
+}
+/* _________________ TAB TÍTULOS / ART. PUBLI. */
+/* ______________________________ TAB TÍTULOS / ART. PUBLI. */
+
+
+@media (max-width: 800px) {
+	.textAlcolI{
+		text-align: center;
+	}
+	.textAlcolD{
+		text-align: center;
+	}	
+}
+/* _________________________________________________________________________________ PERFIL AUTOR */

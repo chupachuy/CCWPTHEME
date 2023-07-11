@@ -1,0 +1,199 @@
+/* _________________________________________________________________________________ FUENTES */
+@font-face { font-family: Heebo-Black; src: url('../font/heebo/Heebo-Black.ttf'); }
+@font-face { font-family: Heebo-Bold; src: url('../font/heebo/Heebo-Bold.ttf'); }
+@font-face { font-family: Heebo-ExtraBold; src: url('../font/heebo/Heebo-ExtraBold.ttf'); }
+@font-face { font-family: Heebo-ExtraLight; src: url('../font/heebo/Heebo-ExtraLight.ttf'); }
+@font-face { font-family: Heebo-Light; src: url('../font/heebo/Heebo-Light.ttf'); }
+@font-face { font-family: Heebo-Medium; src: url('../font/heebo/Heebo-Medium.ttf'); }
+@font-face { font-family: Heebo-Regular; src: url('../font/heebo/Heebo-Regular.ttf'); }
+@font-face { font-family: Heebo-SemiBold; src: url('../font/heebo/Heebo-SemiBold.ttf'); }
+@font-face { font-family: Heebo-Thin; src: url('../font/heebo/Heebo-Thin.ttf'); }
+@font-face { font-family: Heebo-VariableFont_wght; src: url('../font/heebo/Heebo-VariableFont_wght.ttf'); }
+/* _________________________________________________________________________________ FUENTES */
+
+
+/* _________________________________________________________________________________ PERFIL LIBRO */
+.text_vp{
+	font-family: Heebo-Regular;
+	font-size: 1em;
+	color: #000000;
+}
+.cont_img{
+	width: 100%;
+	height: auto;
+}
+.img_perf_lib{
+	width: 100%;
+	height: auto;
+}
+.text_tit_obra{
+	font-family: Heebo-Regular;
+	font-size: 1.5em;
+	color: #004481;
+}
+.text_autores{
+	font-family: Heebo-VariableFont_wght;
+	font-size: 1.4em;
+	color: #000000;
+}
+.text_desc{
+	font-family: Heebo-Light;
+	font-size: 1.3em;
+	color: #000000;
+}
+.text_lib_comp{
+	font-family: Heebo-SemiBold;
+	font-size: 1.3em;
+	color: #00A4E4;
+}
+.text_datos_lib{
+	font-family: Heebo-Light;
+	font-size: 1.3em;
+	color: #000000;
+}
+.text_datos_fin{
+	font-family: Heebo-Light;
+	font-size: 1.2em;
+	color: #000000;
+}
+.text_datos_fin_n{
+	font-family: Heebo-SemiBold;
+	font-size: 1.3em;
+	color: #000000;
+}
+.text_librerias{
+	font-family: Heebo-SemiBold;
+	font-size: 1.3em;
+	color: #00A4E4;
+}
+/*_________________________ GRÁFICA "ROSQUILLA" _____________*/
+/*_________________________ GRÁFICA "ROSQUILLA" _____________*/
+
+/* ______________________________ TAB INFO. LIBRO */
+.paddTab{
+	padding: 2em;
+}
+.nav-tabs .nav-link{
+	font-family: Heebo-Regular;
+	color: #000000;
+	border: transparent;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+	font-family: Heebo-Regular;
+	color: #000000;
+	border-bottom: #000000 solid 2px; 
+}
+.wtotal{
+	width: 100%;
+	height: auto;
+}
+/* ______________________________ TAB INFO. LIBRO */
+
+
+/* ______________________________ TAB INFO. LIBRO - MEDIOS */
+.cont_medios_pl{
+	width: 30%;
+	height: auto;
+}
+.text_tits_prfLib{
+	font-family: Heebo-SemiBold !important;
+	font-size: 1.2em !important;
+	color: #000000 !important;
+}
+.text_desc_pdf{
+	font-family: Heebo-Light;
+	font-size: 1.3em;
+	color: #000000;
+}
+.text_dictamen{
+	font-family: Heebo-SemiBold;
+	font-size: 1.3em;
+	color: #00A4E4;
+}
+.i{
+	color: #1973B8;
+}
+/* ______________________________ TAB INFO. LIBRO - MEDIOS */
+
+
+@media (max-width: 800px) {
+	.textAlcolI{
+		text-align: center;
+	}
+	.textAlcolD{
+		text-align: center;
+	}	
+}
+
+
+
+/* ______________________________ MAPA */
+.mapael .map {
+    position: relative;
+}
+.mapael .mapTooltip {
+    position: absolute;
+    background-color: #fff;
+    moz-opacity: 0.70;
+    opacity: 0.70;
+    filter: alpha(opacity=70);
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 1000;
+    max-width: 200px;
+    display: none;
+    color: #343434;
+}
+.mapael .areaLegend {
+    margin-bottom: 20px;
+}
+
+/* For all zoom buttons */
+.mapael .zoomButton {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	color: #000;
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	text-align: center;
+	border-radius: 3px;
+	cursor: pointer;
+	position: absolute;
+	top: 0;
+	font-weight: bold;
+	left: 10px;
+
+	-webkit-user-select: none;
+	-khtml-user-select : none;
+	-moz-user-select: none;
+	-o-user-select : none;
+	user-select: none;
+}
+
+/* Reset Zoom button first */
+.mapael .zoomReset {
+	top: 10px;
+}
+
+/* Then Zoom In button */
+.mapael .zoomIn {
+	top: 30px;
+}
+
+/* Then Zoom Out button */
+.mapael .zoomOut {
+	top: 50px;
+}
+.marTopMap{
+	margin-top: 2em;
+}
+/* ______________________________ MAPA */
+
+.btnAqui{
+	color: #00A4E4;
+}
+.btnAqui:hover{
+	color: #008DCC;
+}
+/* _________________________________________________________________________________ PERFIL LIBRO */
