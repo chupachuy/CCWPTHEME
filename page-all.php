@@ -73,7 +73,7 @@
 					while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
 						<div class="col-md-3 text-center book-search mb-2">
 							<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('full', ['class' => 'img_il_l', 'title' => 'full']); ?></a>
-							<p class="mt-1"><?php the_title(); ?></p>
+							<p class="mt-1 boldsp"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
 						</div>
 					<?php endwhile; ?>
 				</div>

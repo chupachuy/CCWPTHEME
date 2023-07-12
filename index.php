@@ -291,7 +291,7 @@
                     <div class="col-md-6">
                         <h2 class="tituh3"><i class="fab fa-twitter fa-2x"></i>@ComunidadCient2</h2>
                         <div class="separar"></div>
-                        <a class="twitter-timeline" data-lang="en" data-height="800" href="https://twitter.com/ComunidadCient2">Tweets by Comunicación Científica</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        <a class="twitter-timeline" data-lang="en" data-height="800" href="https://twitter.com/ComunidadCient2?s=20">Tweets by Comunicación Científica</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>
                 </div>
                 
