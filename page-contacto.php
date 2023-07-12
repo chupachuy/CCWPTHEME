@@ -29,45 +29,6 @@
 									Móvil, WhatsApp y Telegram: <a href="https://wa.me/525527124734?text=mensaje%20desde%20comunicacioncientifica.com">(52) 55 2712-4734</a><br>
 									Email: <a href="mailto:infocomunicacioncientifica@gmail.com">infocomunicacioncientifica@gmail.com</a><br>
 								</p>
-
-								<!--<p class="pgen">
-									<span class="boldsp">Oficina central</span>
-									<br/>Ciudad de México, México
-									<br/>Teléfono fijo:
-									<br/>Móvil: 
-									<br/>Email: infocomunicacioncientifica@gmail.com
-								</p>
-
-								<p class="pgen">
-									<span class="boldsp">Chile y Perú</span>
-									<br/>Email: <a href="mailto:infocomunicacioncientifica@gmail.com">infocomunicacioncientifica@gmail.com</a>
-									<br/>WhatsApp: 55 6900-8320
-									<br/>Teléfono: 
-									<br/>Skype: 
-								</p>
-
-								<p class="pgen">
-									<span class="boldsp">Costa Rica, Panamá, Puerto Rico y República Dominicana</span>
-									<br/>Email: <a href="mailto:infocomunicacioncientifica@gmail.com">infocomunicacioncientifica@gmail.com</a>
-									<br/>Móvil y WhatsApp: 55 6092-1800.
-									<br/>Lada: 
-									<br/>Skype: infocomunica02
-								</p>
-
-								<p class="pgen">
-									<span class="boldsp">Ecuador y Bolivia</span>
-									<br/><a href="mailto:infocomunicacioncientifica@gmail.com">infocomunicacioncientifica@gmail.com</a>
-									<br/>WhatsApp: 55 2268-6866.
-									<br/>Lada:
-								</p>
-
-								<p class="pgen">
-									<span class="boldsp">Paraguay y Uruguay</span>
-									<br/>Infocomunica03@gmail.com
-									<br/>Móvil y whats app: 55 2330-3250.
-								</p>-->
-
-
 							</div>
 							
 							<div class="col-md-12">
