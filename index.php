@@ -286,12 +286,12 @@
                     <div class="col-md-6">
                         <h2 class="tituh3"><i class="fab fa-facebook-f fa-2x"></i> comunicacioncientificapublicaciones</h2>
                         <div class="separar"></div>
-                        <div class="fb-page" data-href="https://www.facebook.com/comunicacioncientificapublicaciones/" data-tabs="timeline" data-width="500" data-height="800" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/comunicacioncientificapublicaciones/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/comunicacioncientificapublicaciones/">Comunicación Científica</a></blockquote></div>
+                        <div class="fb-page" data-href="https://www.facebook.com/comunicacioncientificapublicaciones/" data-tabs="timeline" data-width="500" data-height="480" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/comunicacioncientificapublicaciones/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/comunicacioncientificapublicaciones/">Comunicación Científica</a></blockquote></div>
                     </div>
                     <div class="col-md-6">
                         <h2 class="tituh3"><i class="fab fa-twitter fa-2x"></i>@ComunidadCient2</h2>
                         <div class="separar"></div>
-                        <a class="twitter-timeline" data-lang="en" data-height="800" href="https://twitter.com/ComunidadCient2?s=20">Tweets by Comunicación Científica</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        <blockquote class="twitter-tweet"><p lang="es" dir="ltr">&quot;De la medición de la pobreza a la estrategia de intervención comunitaria en el sur de Tamaulipas&quot;, Adolfo Rogelio Cogco Calderón, Guadalupe Isabel Ceballos Álvarez, Jorge Alberto Pérez Cruz, Rafael Isaac Estrada Danell.<a href="https://t.co/kEYRGqVrhl">https://t.co/kEYRGqVrhl</a></p>&mdash; Comunicación Científica (@ComunidadCient2) <a href="https://twitter.com/ComunidadCient2/status/1678423631557165056?ref_src=twsrc%5Etfw">July 10, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>
                 </div>
                 
