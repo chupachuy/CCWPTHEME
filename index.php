@@ -23,7 +23,7 @@
                         <div class="row">
                             <?php query_posts(array(
                                 'Genero' => array('novedades'),
-                                'showposts' => -1
+                                'showposts' => 12
                                 )); 
                               ?>
                             <?php if(have_posts() ) { while (have_posts()) : the_post(); ?>
@@ -69,6 +69,15 @@
 
             <!--Section: Novedades-->
             <!--Section: Novedades-->
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center"><a href="<?php bloginfo(); ?>/catalogo-completo" type="button" class="btn btn-primary waves-effect waves-light">Ver todos</a></p>
+                </div>
+                
+            </div>
         </div>
 
         <br>

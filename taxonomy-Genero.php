@@ -1,4 +1,4 @@
-<?php /* Template Name: Catalogos */ ?>
+<?php /* Template Name: Catalogos Genero*/ ?>
 <?php get_header(); ?>
 <!--Main layout-->
 	<main>

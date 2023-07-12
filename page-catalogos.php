@@ -1,4 +1,4 @@
-<?php /* Template Name: Catalogos */ ?>
+<?php /* Template name: Catalogos */ ?>
 <?php get_header(); ?>
 <!--Main layout-->
 	<main>
@@ -50,9 +50,6 @@
 			</section>
 			<!--Section: Nosotros-->
 		</div>
-
-		
-
 
 	</main>
 	<!--Main layout-->

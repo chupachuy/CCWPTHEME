@@ -1,0 +1,86 @@
+<?php /* Template name: Todas las obras */ ?>
+<?php get_header(); ?>
+<!--Main layout-->
+	<main>
+		<div class="container">
+
+			<!--Section: Nosotros-->
+			<section class="mt-5">
+				<div class="row">
+					<div class="col-md-12">
+						<br/><br/><br/><br/><br/>
+					</div>
+					<div class="col-md-12">
+						<h1 class="tituse1">Catálogo Comunicación Científica</h1>
+						<!--
+						<p class="pgen">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat ullam sunt iusto officia eos magnam ad inventore, veniam asperiores cumque blanditiis, velit facilis? Omnis quisquam doloremque beatae aliquam deleniti exercitationem?</p>-->
+					</div>
+				</div>
+
+				<div class="separar"></div>
+
+				<div class="row justify-content-center">
+					<div class="col-md-8">
+						<input type="search" placeholder="Escriba la obra a buscar..." class="card-filter form-control">
+					</div>
+				</div>
+
+				<div class="separar"></div>
+
+				<div class="row">
+					<?php
+					$the_query = new WP_Query( array(
+						'post_type' => 'libros',
+						'posts_per_page' => -1,
+						'tax_query' => array(
+							array(
+								'taxonomy' => 'Genero',
+								'field' => 'slug',
+								'terms' => array( 'proximamente' ),
+								'operator' => 'NOT IN',
+							),
+						)
+					));
+					?>
+					<?php
+					while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+						<div class="col-md-3 text-center book-search mb-2">
+							<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('full', ['class' => 'img_il_l', 'title' => 'full']); ?></a>
+							<p class="mt-1"><?php the_title(); ?></p>
+						</div>
+					<?php endwhile; ?>
+				</div>
+				<div class="separar"></div>
+				<div class="separar"></div>
+				<div class="separar"></div>
+
+			</section>
+			<!--Section: Nosotros-->
+		</div>
+
+	</main>
+	<!--Main layout-->
+
+	<script>
+		const d = document;
+
+		function searchFilter(input, selector){
+			d.addEventListener("keyup", (e) => {
+				if(e.target.matches(input)){
+					//console.log(e.key);
+					console.log(e.target.value)
+					d.querySelectorAll(selector).forEach(el => el.textContent.toLowerCase().includes(e.target.value)
+						? el.classList.remove("filter")
+						: el.classList.add("filter")
+					)				
+				}
+			});
+		}
+
+		searchFilter(".card-filter", ".book-search")
+
+		
+	</script>
+
+
+<?php get_footer();?>
