@@ -21,9 +21,36 @@
 
 				<div class="row justify-content-center">
 					<div class="col-md-8">
-						<input type="search" placeholder="Escriba la obra a buscar..." class="card-filter form-control">
+						<input type="search" id="input-search" autocapitalize="none"  placeholder="Escriba la obra a buscar..." class="card-filter form-control">
 					</div>
 				</div>
+
+				<div class="separar"></div>
+
+				<div class="row justify-content-center">
+					<div class="col-md-8">
+							<?php
+								$args = array(
+									'posts_per_page'    => '-1', 
+									'orderby'           => 'title',
+									'order'             => 'ASC',
+									'post_type'         => 'libros',
+								);
+								$the_query = new WP_Query( $args );
+									if ( $the_query->have_posts() ) :
+								?>
+								<select class="form-control" onchange="window.document.location.href=this.options[this.selectedIndex].value;">
+									<option selected="selected">Selecciona una obra</option>
+									<?php
+									while ($the_query->have_posts()) : $the_query->the_post();
+									?>
+									<option value="<?php esc_url(the_permalink()); ?>"><?php esc_html(the_title()); ?></option>
+									<?php endwhile; ?>
+								</select>
+							<?php endif; wp_reset_postdata(); ?>
+					</div>
+				</div>
+				
 
 				<div class="separar"></div>
 
@@ -64,12 +91,17 @@
 	<script>
 		const d = document;
 
+		
+
 		function searchFilter(input, selector){
 			d.addEventListener("keyup", (e) => {
 				if(e.target.matches(input)){
 					//console.log(e.key);
-					console.log(e.target.value)
-					d.querySelectorAll(selector).forEach(el => el.textContent.toLowerCase().includes(e.target.value)
+					const minusculas = e.target.value.toLowerCase();
+					console.log(minusculas);
+					//console.log(e.target.value)
+					d.querySelectorAll(selector).forEach(el => el.textContent.includes(e.target.value)
+					/*d.querySelectorAll(selector).forEach(el => el.textContent.toLowerCase().includes(e.target.value)*/
 						? el.classList.remove("filter")
 						: el.classList.add("filter")
 					)				

@@ -856,3 +856,7 @@ ul.children {list-style:none;padding-left:0px; margin-left:0px;}
 .filter{
   display: none;
 }
+
+/*input.card-filter{
+  text-transform: lowercase;
+}*/
