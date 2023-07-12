@@ -51,4 +51,13 @@ Teléfono: (opcional)
 
 [contact-form-7 id="1049" title="agenda"]
 
+
+¿Acepta recibir nuestro boletín mensual en su correo electrónico?  (casilla a marcar)
+
+Recibirá un correo electrónico con una liga hacia nuestra agenda donde podrá seleccionar el día y la hora que mejor le convengan para recibir asesoría de uno de nuestros colaboradores. Revise en su carpeta de spam.
+
+Agregar el texto de protección de datos.
+
+
+
 -->
