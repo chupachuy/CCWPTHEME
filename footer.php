@@ -1,14 +1,5 @@
 <!--Footer-->
 
-<!-- AGENDA UNA CITA -->
-
-<!-- Principio del widget de globo de Calendly -->
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/comunicacion-cientifica', text: 'Programe una reunión conmigo', color: '#0069ff', textColor: '#ffffff', branding: true }); }</script>
-<!-- Final del widget de globo de Calendly -->
-
-
 <!-- WHATS APP -->
 <a href="https://api.whatsapp.com/send?phone=525545162170&amp;text=Quiero%20m%C3%A1s%20informaci%C3%B3n." class="float" target="_blank">
 <i class="fab fa-whatsapp my-float"></i>

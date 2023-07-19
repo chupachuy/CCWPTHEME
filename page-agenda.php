@@ -1,63 +1,27 @@
 <?php
 /*
-Template Name: Agenda
+Template name: Calendly
 */
 ?>
+
 <?php get_header(); ?>
-<!--Main layout-->
-
-<main>
-    <section class="mt-5 wow fadeIn">
-
-    <div class="container">
-      <div class="row justify-content-center">
-            <div class="col-11 col-md-8">
-                <br /><br /><br /><br /><br />
-            </div>
-            <div class="col-11 col-md-8">
-                <h1 class="tituse1">Agenda</h1>
-                <p class="pgen">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec nunc nisl. Cras lobortis neque vel massa tristique, molestie lacinia tortor interdum. Phasellus nibh arcu, dignissim nec dolor nec, scelerisque consequat ligula. Etiam elementum facilisis tincidunt. Duis sit amet ligula at quam tempor gravida. Suspendisse pretium consequat porttitor. </p>
-                <br />
+<div class="separar"></div>
+<div class="separar"></div>
+<section class="mt-5">
+    <div class="container-fluid text-center">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="tituse1">Agende aquí una asesoría personal</h1>
             </div>
         </div>
     </div>
-        
-    </section>
-    <div class="container">
-    </div>
-    <div class="container agenda">
-        <div class="row justify-content-center">
-            <div class="col-11 col-md-8">
-                <div class="contact-form">
-                    <?php echo apply_shortcodes( '[contact-form-7 id="1049" title="agenda"]' ); ?>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="separar"></div>
-</main>
 
+    <div class="container-fluid">
+        <!-- Principio del widget integrado de Calendly -->
+    <div class="calendly-inline-widget" data-url="https://calendly.com/comunicacion-cientifica" style="min-width:320px;height:700px;"></div>
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+    <!-- Final del widget integrado de Calendly -->
+    </div>
+</section>
 
 <?php get_footer(); ?>
-
-<!--
-
-Nombre: (obligatorio)
-Institución: (obligatorio)
-Disciplina: (obligatorio)
-Correo: (obligatorio)
-Teléfono: (opcional)
-
-
-[contact-form-7 id="1049" title="agenda"]
-
-
-¿Acepta recibir nuestro boletín mensual en su correo electrónico?  (casilla a marcar)
-
-Recibirá un correo electrónico con una liga hacia nuestra agenda donde podrá seleccionar el día y la hora que mejor le convengan para recibir asesoría de uno de nuestros colaboradores. Revise en su carpeta de spam.
-
-Agregar el texto de protección de datos.
-
-
-
--->
