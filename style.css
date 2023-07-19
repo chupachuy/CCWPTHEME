@@ -866,3 +866,14 @@ ul.children {list-style:none;padding-left:0px; margin-left:0px;}
   padding: 20px 20px;
   margin-bottom: 10px;
 }
+
+.err-404{
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.err-404 p{
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  font-size: 14rem;
+}
