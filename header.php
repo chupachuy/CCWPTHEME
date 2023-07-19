@@ -89,6 +89,7 @@
 
   gtag('config', 'G-EPN3J10KXC');
 </script>
+
 	<?php wp_head(); ?>
 </head>
 

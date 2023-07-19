@@ -338,7 +338,7 @@ animation-delay: .8s;
   padding: 15px;
   background-color: #c5c5c5;
    position: fixed;
-     bottom: 35px;
+     bottom: 70px;
      right: 20px;
 }
 
@@ -497,6 +497,7 @@ a.a2a_dd.addtoany_share_save.addtoany_share {
 .my-float{
     margin-top:16px;
 }
+
 
 .sotano-url{
   width: 100%;
