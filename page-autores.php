@@ -13,13 +13,17 @@ Template Name: Autores
       <div class="row">
         <div class="col-md-12"><br/><br/><br/><br/></div>
       </div>
-      <div class="row">
-        <div class="col-md-12"><br/></div>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+        <input type="search" id="input-search" autocapitalize="none"  placeholder="Escriba un nombre de autor.." class="card-filter form-control">
+        </div>
       </div>
 
       </div>
     </section>
   </div>
+
+  <div class="separar"></div>
 
       
 <div class="container">
@@ -42,6 +46,33 @@ Template Name: Autores
     <?php endforeach; ?>
   </div>
 </div>
+
+
+<script>
+		const d = document;
+
+		
+
+		function searchFilter(input, selector){
+			d.addEventListener("keyup", (e) => {
+				if(e.target.matches(input)){
+					//console.log(e.key);
+					const minusculas = e.target.value.toLowerCase();
+					console.log(minusculas);
+					//console.log(e.target.value)
+					d.querySelectorAll(selector).forEach(el => el.textContent.includes(e.target.value)
+					/*d.querySelectorAll(selector).forEach(el => el.textContent.toLowerCase().includes(e.target.value)*/
+						? el.classList.remove("filter")
+						: el.classList.add("filter")
+					)				
+				}
+			});
+		}
+
+		searchFilter(".card-filter", ".card-author")
+
+		
+	</script>
       
 
         
