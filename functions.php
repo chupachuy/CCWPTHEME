@@ -511,4 +511,5 @@ add_action( 'wp_enqueue_scripts', 'cargaScriptContDesc' );
 
 remove_filter ('the_excerpt', 'wpautop');
 
+
 ?>

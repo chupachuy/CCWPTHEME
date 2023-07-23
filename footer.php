@@ -100,10 +100,31 @@
 	<!-- Initializations -->
 	<script type="text/javascript">
 		// Animations initialization
-		new WOW().init();
+		//new WOW().init();
 
 	</script>
 	<script>
+
+
+		function searchFilter(input, selector){
+			d.addEventListener("keyup", (e) => {
+				if(e.target.matches(input)){
+					//console.log(e.key);
+					const minusculas = e.target.value.toLowerCase();
+					console.log(minusculas);
+					//console.log(e.target.value)
+					d.querySelectorAll(selector).forEach(el => el.textContent.includes(e.target.value)
+					/*d.querySelectorAll(selector).forEach(el => el.textContent.toLowerCase().includes(e.target.value)*/
+						? el.classList.remove("filter")
+						: el.classList.add("filter")
+					)				
+				}
+			});
+		}
+
+		searchFilter(".card-filter", ".book-search")
+
+
         $(document).ready(function(){
 
           //$(".alert").alert();
@@ -187,8 +208,18 @@
             // que utilizar: removeRange(range)
           });
 
+          /** BUSQUEDAS FILTROS */
 
-				
+          
+          searchFilter(".card-filter", ".book-search");
+
+          const searchCategory = document.getElementById("cat_search");
+
+					searchCategory.onchange = function() {
+						alert(val());
+						window.location = "<?php echo esc_url(home_url('/')); ?>Genero/" + $(this).val();
+					};
+
       </script>
 	<?php wp_footer(); ?>
 </body>
