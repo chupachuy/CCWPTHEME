@@ -21,12 +21,16 @@
                 <div class="col-md-11">
                     <section class="mt-5">
                         <div class="row">
-                            <?php query_posts(array(
-                                'Genero' => array('novedades'),
-                                'showposts' => 12
-                                )); 
-                              ?>
-                            <?php if(have_posts() ) { while (have_posts()) : the_post(); ?>
+                        <?php
+                                $args = array(
+                                    'post_type' => 'Libros',
+                                    'orderby' => 'DESC',
+                                    'posts_per_page' => 12,
+                                );
+                                $the_query = new WP_Query( $args );
+                        ?>
+                           <?php if ( $the_query->have_posts() ) : ?>
+                            <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
                             <div class="col-md-2 thumbnail-novedades">
                                 <?php if((get_post_meta( get_the_ID(), 'acceso_restringido', true ) )){ ?>
                                     <div class="cont_img">
@@ -60,7 +64,9 @@
                                 <?php include('includes/author-home.php'); ?>
                             </div>
                             <div class="separar"></div>
-                            <?php endwhile; } wp_reset_query(); ?>
+                            <?php endwhile; ?>
+                                <?php wp_reset_postdata(); ?>
+                            <?php endif; ?>
                         </div>
                     </section>
                     
@@ -102,11 +108,19 @@
                 <div class="col-md-11">
                     <section class="mt-5">
                         <div class="row">
-                            <?php query_posts(array(
-                                'Genero' => array('proximamente'),
-                                'showposts' => -1
-                                )); 
-                              ?>
+                            <?php
+                                $the_query = new WP_Query( array(
+                                    'post_type' => 'libros',
+                                    'tax_query' => array(
+                                        array(
+                                            'taxonomy' => 'Genero',
+                                            'field' => 'slug',
+                                            'terms' => array( 'novedades' ),
+                                            'order' => 'ASC'
+                                        ),
+                                    )
+                                ));
+                                ?>
                             <?php if(have_posts() ) { while (have_posts()) : the_post(); ?>
                             <div class="col-md-2">
                                 <div class="cont_img">
