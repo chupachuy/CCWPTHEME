@@ -567,36 +567,36 @@
                         <!-- EPUB -->
                         <?php if((get_post_meta( get_the_ID(), 'pdf_format', true ) )){ ?>
                         <tr>
-                            <td><strong>Formato 1 PDF</strong></td>
+                            <td><strong>Formato 1</strong></td>
                             <td>NO</td>
                         </tr>
                         <?php }else{ ?>
                         <tr>
-                            <td><strong>Formato 1 PDF</strong></td>
+                            <td><strong>Formato 1</strong></td>
                             <td>PDF</td>
                         </tr>
                         <?php } ?>
                         <!-- PDF -->
                         <?php if((get_post_meta( get_the_ID(), 'epub_format', true ) )){ ?>
                         <tr>
-                            <td><strong>Formato 2 EPUB</strong></td>
+                            <td><strong>Formato 2</strong></td>
                             <td>NO</td>
                         </tr>
                         <?php }else{ ?>
                         <tr>
-                            <td><strong>Formato 2 EPUB</strong></td>
+                            <td><strong>Formato 2</strong></td>
                             <td>EPUB</td>
                         </tr>
                         <?php } ?>
                         <!-- HTM5 -->
                         <?php if((get_post_meta( get_the_ID(), 'html5_format', true ) )){ ?>
                         <tr>
-                            <td><strong>Formato 3 HTML5</strong></td>
+                            <td><strong>Formato 3</strong></td>
                             <td>NO</td>
                         </tr>
                         <?php }else{ ?>
                         <tr>
-                            <td><strong>Formato 3 HTML5</strong></td>
+                            <td><strong>Formato 3</strong></td>
                             <td>HTML5</td>
                         </tr>
                         <?php } ?>
