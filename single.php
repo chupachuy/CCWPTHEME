@@ -475,7 +475,7 @@
             <div class="modal-body">
                 <!-- Default form subscription -->
                 <div class="contact-form">
-                    <table class="table">
+                    <table class="table" id="ficha-catalografica">
                         <tr>
                             <td><strong>Título</strong></td>
                             <td>
@@ -604,10 +604,16 @@
                 </div>
             </div>
             <div class="modal-footer">
+                <button type="button" id="pdfFile" class="btn btn-primary">PDF</button>
                 <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
             </div>
         </div>
     </div>
 </div>
+
+<script>
+
+    
+</script>
 <!-- Modal -->
 <?php get_footer(); ?>

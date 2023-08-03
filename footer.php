@@ -96,6 +96,10 @@
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/accTransparencia.js"></script>
 
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/accPerfilLibro.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.2/html2canvas.js"></script>
 	
 	<!-- Initializations -->
 	<script type="text/javascript">
@@ -104,6 +108,8 @@
 
 	</script>
 	<script>
+
+		const d = document;
 
 
 		function searchFilter(input, selector){
@@ -122,7 +128,7 @@
 			});
 		}
 
-		searchFilter(".card-filter", ".book-search")
+		searchFilter(".card-filter", ".book-search");
 
 
         $(document).ready(function(){
@@ -208,17 +214,59 @@
             // que utilizar: removeRange(range)
           });
 
-          /** BUSQUEDAS FILTROS */
-
           
-          searchFilter(".card-filter", ".book-search");
 
-          const searchCategory = document.getElementById("cat_search");
+					/*** CREATE TABLE PDF */
 
-					searchCategory.onchange = function() {
-						alert(val());
-						window.location = "<?php echo esc_url(home_url('/')); ?>Genero/" + $(this).val();
-					};
+					let mainTable = document.getElementById("ficha-catalografica");
+					let pdfFile = document.getElementById("pdfFile");
+
+					console.log(pdfFile)
+
+					pdfFile.addEventListener("click", function (){
+						let doc = new jsPDF('p', 'pt', 'letter');
+						let margin = 20;
+
+						let scale = (doc.internal.pageSize.width - margin * 2) / document.body.clientWidth;
+						let scale_mobile = (doc.internal.pageSize.width - margin * 2) / document.body.getBoundingClientRect();
+
+						console.log("aca");
+
+						// Checking 
+
+						if(/Android|webOS|iPhone|iPad|iPod|Blackberry|IEMobile|Opera MIni/i.test(navigator.userAgent)){
+							// Mob¡l
+							doc.html(mainTable, {
+								x: margin,
+								y: margin,
+								html2canvas: {
+									scale: scale_mobile,
+								},
+								callback: function(doc){
+									doc.output('dataurlnewwindow', {filename: 'ficha_vatalografica.pdf'});
+								}
+							})
+						} else {
+							// PC
+							doc.html(mainTable, {
+								x: margin,
+								y: margin,
+								html2canvas: {
+									scale: scale,
+								},
+								callback: function(doc){
+									doc.output('dataurlnewwindow', {filename: 'ficha_vatalografica.pdf'});
+								}
+							})
+
+
+						}
+
+
+
+					});
+
+					/*pdfFile.onlick = */
 
       </script>
 	<?php wp_footer(); ?>
