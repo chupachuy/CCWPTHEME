@@ -30,7 +30,7 @@ Template Name: Autores
   <div class="row">
     <?php foreach (get_terms('Autores') as $cat) : ?>
 
-      <div class="col-md-6 card-author">
+      <div class="col-md-6 book-search">
           <div class="row">
             <div class="col-md-4 images-autor"><!-- IMG AUTOR -->
               <img src="<?php echo z_taxonomy_image_url($cat->term_id); ?>" />
@@ -47,35 +47,7 @@ Template Name: Autores
   </div>
 </div>
 
-
-<script>
-		const d = document;
-
-		
-
-		function searchFilter(input, selector){
-			d.addEventListener("keyup", (e) => {
-				if(e.target.matches(input)){
-					//console.log(e.key);
-					const minusculas = e.target.value.toLowerCase();
-					console.log(minusculas);
-					//console.log(e.target.value)
-					d.querySelectorAll(selector).forEach(el => el.textContent.includes(e.target.value)
-					/*d.querySelectorAll(selector).forEach(el => el.textContent.toLowerCase().includes(e.target.value)*/
-						? el.classList.remove("filter")
-						: el.classList.add("filter")
-					)				
-				}
-			});
-		}
-
-		searchFilter(".card-filter", ".card-author")
-
-		
-	</script>
       
-
-        
       
 
     <!--/. SECCIÓN INFO. AUTOR -->

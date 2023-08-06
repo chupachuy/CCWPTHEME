@@ -154,14 +154,14 @@
                     <a type="button" class="btn btn-outline-primary waves-effect" data-toggle="modal" data-target="#modalcitar">Citar directo</a>
                     <?php } ?>
                     <!-- DUBLIN CORE -->
-                    <?php if(current_user_can('administrator')) { ?>
+                    
                     <hr>
                     <div class="dublin-core">
-                        <p class="mt-1 mb-1">Interoperabilidad Metadatos Académicos</p>
+                        <p class="mt-1 mb-1 text_tit_obra">Interoperabilidad Metadatos Académicos</p>
                         <a data-toggle="modal" data-target="#modal-ficha-catalografica"><img src="<?php bloginfo('template_url'); ?>/img/dublin-core.jpg" alt="Dublin Core"></a>
                     </div>
                     <hr>
-                    <?php } ?>
+                    
                     <!-- DUBLIN CORE -->
                     <div class="separar"></div>
                     <table>
@@ -464,7 +464,7 @@
 </div>
 <!-- MODAL FICHA CATALOGRAFICA -->
 <div class="modal fade" id="modal-ficha-catalografica" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel"><strong>Ficha Catalográfica</strong></h5>
@@ -604,7 +604,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" id="pdfFile" class="btn btn-primary">PDF</button>
+                <button type="button" id="pdfFile" class="btn btn-primary">Guardar PDF</button>
                 <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
             </div>
         </div>
