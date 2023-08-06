@@ -123,31 +123,7 @@
 
 	<!--Main layout-->
 
-	<script>
-		const d = document;
-
-		
-
-		function searchFilter(input, selector){
-			d.addEventListener("keyup", (e) => {
-				if(e.target.matches(input)){
-					//console.log(e.key);
-					const minusculas = e.target.value.toLowerCase();
-					console.log(minusculas);
-					//console.log(e.target.value)
-					d.querySelectorAll(selector).forEach(el => el.textContent.includes(e.target.value)
-					/*d.querySelectorAll(selector).forEach(el => el.textContent.toLowerCase().includes(e.target.value)*/
-						? el.classList.remove("filter")
-						: el.classList.add("filter")
-					)				
-				}
-			});
-		}
-
-		searchFilter(".card-filter", ".book-search")
-
-		
-	</script>
+	
 
 
 <?php get_footer();?>
