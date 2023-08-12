@@ -68,6 +68,7 @@
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-EPN3J10KXC">
         </script>
+        <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script><script>
         <script>
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
@@ -75,9 +76,11 @@
         
           gtag('config', 'G-EPN3J10KXC');
         </script>
+
         <?php wp_head(); ?>
     </head>
     <body>
+        <!-- Google tag (gtag.js) --> <amp-analytics type="gtag" data-credentials="include"> <script type="application/json"> { "vars": { "gtag_id": "AW-11285714786", "config": { "AW-11285714786": { "groups": "default" } } }, "triggers": { } } </script> </amp-analytics>
         <!-- Navbar -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar bacKNva">
             <div class="container-fluid">
