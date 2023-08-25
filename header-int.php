@@ -66,16 +66,19 @@
         <meta name="Publicaciones académicas, publicaciones arbitradas, libro académicos, libros dictaminados, coedición libros, coediciones académicas, artículos dictaminados, editorial académica, Open Access Book" content="HTML, CSS, JavaScript">
       
         <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-EPN3J10KXC">
-        </script>
-        <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script><script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'G-EPN3J10KXC');
-        </script>
+<!--<script async src="https://www.googletagmanager.com/gtag/js?id=G-EPN3J10KXC">
+</script>
+<script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EPN3J10KXC');
+
+</script>-->
+
+<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11285714786"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-11285714786'); </script>
 
         <?php wp_head(); ?>
     </head>

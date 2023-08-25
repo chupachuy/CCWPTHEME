@@ -12,7 +12,7 @@
 						<br/><br/><br/><br/><br/>
 					</div>
 					<div class="col-md-12">
-						<h1 class="tituse1"><?php $term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) ); echo $term->name; ?></h1>
+						<h1 class="tituse1">hooola: <?php $term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) ); echo $term->name; ?></h1>
 						<!--<?php echo '<h1>'.$varCurrentItem.'</h1>'; ?>-->
 
 						<div class="row justify-content-center">

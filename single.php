@@ -274,6 +274,12 @@
                     </div>
                     <!--/. DICTAMINACIÓN PDFs -->
                     <hr>
+                    <div class="logo-turniting">
+                        <p class="turniting" style="color: #005763">VERIFICACIÓN DE SIMILITUD</p>
+                        <img class="mt-1" src="<?php bloginfo('template_url'); ?>/img/turnitin.png" alt="Turniting">
+                        <p class="turniting" style="color: #005763"><a href="">Descargar en PDF</a></p>
+                    </div>
+                    <hr>
                     <!-- MEDIOS -->
                     <div class="row">
                         <div class="col-md-12">

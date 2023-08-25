@@ -862,6 +862,25 @@ ul.children {list-style:none;padding-left:0px; margin-left:0px;}
   text-transform: lowercase;
 }*/
 
+.logo-turniting{
+  width: 100%;
+}
+
+.turniting{
+    font-family: Heebo-SemiBold !important;
+    font-size: 1.2em !important;
+    color: #005763;
+}
+
+.turniting a{ 
+    font-family: Heebo-SemiBold !important;
+    font-size: 1.2em !important;
+    color: #005763;
+}
+
+.logo-turniting img{
+  width: 100%;
+}
 
 .card-author{
   padding: 20px 20px;
