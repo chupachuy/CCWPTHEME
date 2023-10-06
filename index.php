@@ -25,7 +25,7 @@
                                 $args = array(
                                     'post_type' => 'Libros',
                                     'orderby' => 'DESC',
-                                    'posts_per_page' => 12,
+                                    'posts_per_page' => 30,
                                 );
                                 $the_query = new WP_Query( $args );
                         ?>

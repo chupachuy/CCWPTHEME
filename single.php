@@ -277,7 +277,9 @@
                     <div class="logo-turniting">
                         <p class="turniting" style="color: #005763">VERIFICACIÓN DE SIMILITUD</p>
                         <img class="mt-1" src="<?php bloginfo('template_url'); ?>/img/turnitin.png" alt="Turniting">
-                        <p class="turniting" style="color: #005763"><a href="">Descargar en PDF</a></p>
+                        <?php if(get_post_meta( get_the_ID(), 'turnitin', true )){ ?>
+                            <p class="turniting" style="color: #005763"><a href="<?php echo get_post_meta($post->ID, 'turnitin', true); ?>" target="_blank">DESCARGAR EN PDF</a></p>
+                        <?php } ?>
                     </div>
                     <hr>
                     <!-- MEDIOS -->
@@ -427,7 +429,7 @@
                         <!--/. TAB "PESTAÑAS" - INFO. LIBRO -->
                         <?php endwhile; ?>
                         <div class="col-md-12" style="padding-top: 3em;">
-                            <p class="pgen">¿Desea publicar?, contacte con nuestros editores <a class="" href="<?php bloginfo('url'); ?>/contacto">aquí</a>.</p>
+                            <h3 class="">¿Desea publicar?, contacte con nuestros editores <a class="boldsp" href="<?php bloginfo('url'); ?>/contacto">aquí</a>.</h3>
                         </div>
                     </div>
     </section>

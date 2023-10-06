@@ -14,6 +14,7 @@
             <li data-target="#carousel-example-1z" data-slide-to="8"></li>
             <li data-target="#carousel-example-1z" data-slide-to="9"></li>
             <li data-target="#carousel-example-1z" data-slide-to="10"></li>
+            <li data-target="#carousel-example-1z" data-slide-to="11"></li>
         </ol>
         <!--/.Indicators-->
         <!--Slides-->
@@ -46,9 +47,9 @@
             </div>
             <!--9 slide-->
 
-            <!--8 slide-->
+            <!--8 Turniting-->
             <div class="carousel-item">
-                <div class="view backPos" style="background-image: url('<?php bloginfo("template_url"); ?>/img/home/banners/banner-06.jpg'); background-repeat: no-repeat; background-size: cover;">
+                <div class="view backPos" style="background-image: url('<?php bloginfo("template_url"); ?>/img/home/banners/CC-Turnitin.jpg'); background-repeat: no-repeat; background-size: cover;">
 
                     <!-- Mask & flexbox options-->
                     <div class="mask textSlide">
@@ -57,11 +58,11 @@
                         <div class="wow fadeIn ">
                             <div>
                                 <!--<p class="slidAutor">Text</p>-->
-                                <p class="slidTitulo">MEDICIÓN DEL IMPACTO</p>
+                                <p class="slidTitulo">Turnitin</p>
                                 <!--<p class="slidSubtitulo">text</p>-->
-                                <p class="slidparrafo">Podrá saber quién habla sobre su publicación y lo que dicen, el tipo de público, en qué zonas, interactuar con lectores, que los resultados sean interpretados con precisión...</p>
+                                <p class="slidparrafo">Tecnología en verificación de documentos en búsqueda de contenido no original, protege la propiedad intelectual y la académica institucional</p>
                                 <br>
-                                <a href="<?php bloginfo('url'); ?>/impacto-de-la-investigacion/" type="button" class="btn btn-primary text-center waves-effect waves-light">Leer más</a>
+                                
                             </div>
                         </div>
                         <!-- Content -->
@@ -72,6 +73,61 @@
                 </div>
             </div>
             <!--8 slide-->
+
+            <!--4 slide-->
+            <div class="carousel-item">
+                <div class="view backPos" style="background-image: url('<?php bloginfo("template_url"); ?>/img/home/banners/Cultura-y-Bigdata-1500x844px.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+                    <!-- Mask & flexbox options-->
+                    <div class="mask textSlide">
+
+                        <!-- Content -->
+                        <div class="wow fadeIn ">
+                            <div>
+                                <p class="slidAutor">Jesús Eduardo Oliva Abarca</p>
+                                <p class="slidTitulo">Cultura y big data</p>
+                                <!--<p class="slidSubtitulo">text</p>-->
+                                <p class="slidparrafo">La cultura y el arte han tenido que asumir la digitalización como alternativa para su difusión, sin embargo no todos los gestores y promotores cuentan con el conocimiento y la infraestructura. Este libro brinda opciones e ideas para la transición a entornos digitales.</p>
+                                <a href="<?php bloginfo('url'); ?>/libros/cultura-y-big-data/" type="button" class="btn btn-primary text-center waves-effect waves-light">Leer más</a>
+                                <br>
+                            </div>
+                        </div>
+                        <!-- Content -->
+
+                    </div>
+                    <!-- Mask & flexbox options-->
+
+                </div>
+            </div>
+            <!--4 slide-->
+
+
+            <!--3 slide-->
+            <div class="carousel-item">
+                <div class="view backPos" style="background-image: url('<?php bloginfo("template_url"); ?>/img/home/banners/CC-Dictaminacion-de-pares-ciegos.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+                    <!-- Mask & flexbox options-->
+                    <div class="mask textSlide">
+
+                        <!-- Content -->
+                        <div class="wow fadeIn ">
+                            <div>
+                                <!--<p class="slidAutor">Text</p>-->
+                                <p class="slidTitulo">TRANSPARENCIA</p>
+                                <!--<p class="slidSubtitulo">text</p>-->
+                                <p class="slidparrafo">Transparentamos el proceso de dictaminación de pares ciegos para validar la calidad </p>
+                                <br>
+                                <a href="<?php bloginfo('url'); ?>/transparencia-editorial/" type="button" class="btn btn-primary text-center waves-effect waves-light">Leer más</a>
+                            </div>
+                        </div>
+                        <!-- Content -->
+
+                    </div>
+                    <!-- Mask & flexbox options-->
+
+                </div>
+            </div>
+            <!--3 slide-->
 
             <!--1 slide-->
             <div class="carousel-item">
@@ -101,9 +157,9 @@
             <!--1 slide-->
 
 
-            <!--3 slide-->
+             <!--8 slide-->
             <div class="carousel-item">
-                <div class="view backPos" style="background-image: url('<?php bloginfo("template_url"); ?>/img/home/banners/banner-02.jpg'); background-repeat: no-repeat; background-size: cover;">
+                <div class="view backPos" style="background-image: url('<?php bloginfo("template_url"); ?>/img/home/banners/banner-06.jpg'); background-repeat: no-repeat; background-size: cover;">
 
                     <!-- Mask & flexbox options-->
                     <div class="mask textSlide">
@@ -112,11 +168,11 @@
                         <div class="wow fadeIn ">
                             <div>
                                 <!--<p class="slidAutor">Text</p>-->
-                                <p class="slidTitulo">TRANSPARENCIA</p>
+                                <p class="slidTitulo">MEDICIÓN DEL IMPACTO</p>
                                 <!--<p class="slidSubtitulo">text</p>-->
-                                <p class="slidparrafo">Transparentamos el proceso de dictaminación de pares ciegos para validar la calidad </p>
+                                <p class="slidparrafo">Podrá saber quién habla sobre su publicación y lo que dicen, el tipo de público, en qué zonas, interactuar con lectores, que los resultados sean interpretados con precisión...</p>
                                 <br>
-                                <a href="<?php bloginfo('url'); ?>/transparencia-editorial/" type="button" class="btn btn-primary text-center waves-effect waves-light">Leer más</a>
+                                <a href="<?php bloginfo('url'); ?>/impacto-de-la-investigacion/" type="button" class="btn btn-primary text-center waves-effect waves-light">Leer más</a>
                             </div>
                         </div>
                         <!-- Content -->
@@ -126,34 +182,7 @@
 
                 </div>
             </div>
-            <!--3 slide-->
-
-            <!--4 slide-->
-            <div class="carousel-item">
-                <div class="view backPos" style="background-image: url('<?php bloginfo("template_url"); ?>/img/home/banners/Cultura-y-Bigdata-1500x844px.jpg'); background-repeat: no-repeat; background-size: cover;">
-
-                    <!-- Mask & flexbox options-->
-                    <div class="mask textSlide">
-
-                        <!-- Content -->
-                        <div class="wow fadeIn ">
-                            <div>
-                                <p class="slidAutor">Jesús Eduardo Oliva Abarca</p>
-                                <p class="slidTitulo">Cultura y big data</p>
-                                <!--<p class="slidSubtitulo">text</p>-->
-                                <p class="slidparrafo">La cultura y el arte han tenido que asumir la digitalización como alternativa para su difusión, sin embargo no todos los gestores y promotores cuentan con el conocimiento y la infraestructura. Este libro brinda opciones e ideas para la transición a entornos digitales.</p>
-                                <a href="<?php bloginfo('url'); ?>/libros/cultura-y-big-data/" type="button" class="btn btn-primary text-center waves-effect waves-light">Leer más</a>
-                                <br>
-                            </div>
-                        </div>
-                        <!-- Content -->
-
-                    </div>
-                    <!-- Mask & flexbox options-->
-
-                </div>
-            </div>
-            <!--4 slide-->
+            <!--8 slide-->
 
             <!--5 slide-->
             <div class="carousel-item">
