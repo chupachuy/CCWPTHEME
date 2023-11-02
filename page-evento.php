@@ -18,7 +18,7 @@
 				</div>
 				<div class="row justify-content-md-center">
 					<div class="col-md-6">
-						<p></p>
+						<?php echo do_shortcode( '[contact-form-7 id="186" title="Evento registro"]' ); ?>
 					</div>
 				</div>
 			</section>

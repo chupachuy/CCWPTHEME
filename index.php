@@ -374,4 +374,26 @@
     <!--Main layout-->
 
 
+    <!-- Modal -->
+    <div class="modal fade" id="modalEvento" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Cómo prevenir el plagio en escritos académicos</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="<?php bloginfo('template_url'); ?>/img/webinar_turnitin_homewebsite_1200x1200.jpg" alt="Webinar Comunicación Científica" class="img-fluid">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            <a type="button" href="https://comunicacion-cientifica.com/registro_evento/" class="btn btn-primary">Inscribirse</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
 <?php get_footer(); ?>

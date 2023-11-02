@@ -129,21 +129,6 @@
             'walker'            => new WP_Bootstrap_Navwalker(),
         ) );
         ?>
-			<!--<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item text-center efeHover"><a class="nav-link colorH" href="<?php bloginfo('url'); ?>/catalogo-de-acceso-abierto/">Catálogo de<br/>acceso abierto </a></li>
-					<li class="nav-item text-center efeHover"><a class="nav-link colorH" href="<?php bloginfo('url')?>/autores/">Autores </a></li>
-					<li class="nav-item text-center efeHover"><a class="nav-link colorH" href="<?php bloginfo('url'); ?>/comunicacion-total/">Comunicación<br/>total </a></li>
-					<li class="nav-item text-center efeHover"><a class="nav-link colorH" href="<?php bloginfo('url'); ?>/impacto-de-la-investigacion/">Impacto de la<br/> publicación</a></li>
-					<li class="nav-item text-center efeHover"><a class="nav-link colorH" href="<?php bloginfo('url'); ?>/transparencia-editorial/">Transparencia<br/>editorial </a></li>
-					<li class="nav-item text-center efeHover"><a class="nav-link colorH" href="<?php bloginfo('url'); ?>/colecciones/">Colecciones </a></li>
-					<li class="nav-item text-center efeHover"><a class="nav-link colorH" href="<?php bloginfo('url'); ?>/como-publicar/">Cómo publicar </a></li>
-					<li class="nav-item text-center efeHover"><a class="nav-link colorH" href="<?php bloginfo('url'); ?>/servicios/">Servicios </a></li>
-					<li class="nav-item text-center efeHover"><a class="nav-link colorH" href="<?php bloginfo('url'); ?>/que-esperar-de-nosotros/">Qué esperar<br/>de nosotros </a></li>
-					<li class="nav-item text-center efeHover"><a class="nav-link colorH" href="<?php bloginfo('url'); ?>/contacto/">Contacto </a></li>
-					<li class="nav-item text-center efeHover"><a class="nav-link colorH" href="#">En/<span class="colAzC">Es</span> </a></li>
-				</ul>
-			</div>-->
 
 		</div>
 	</nav>

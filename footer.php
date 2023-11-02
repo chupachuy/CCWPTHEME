@@ -133,9 +133,11 @@
 
         $(document).ready(function(){
 
+
+
           //$(".alert").alert();
           
-          //$("#modalEvento").modal("show");
+          $("#modalEvento").modal("show");
 
           $("#Formulario2").submit(function( event ){
           event.preventDefault();
@@ -178,7 +180,6 @@
             return false;
           }
         }
-
 
       </script>
       <script type="text/javascript">
@@ -288,6 +289,10 @@
 		}
 
 		searchFilter(".card-filter", ".book-search");
+
+
+
+		document.addEventListener("DOM", )
 
       </script>
 
